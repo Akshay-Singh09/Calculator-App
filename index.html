@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <link rel="icon" href="calculator_icon.png" type="image/png" sizes="any">
+    </head>
+    <body>
+        <div class="head">
+            <img src="calculator_icon.png" alt="calculator" id="logo">
+            <h1 id="title">Online Calculator</h1>
+        </div>
+        <hr>
+        <div id="calculator">
+            <div class="display" id="expression"></div>
+            <div class="display" id="res_out"></div>
+            <div id="keypad">
+                <button class="keys operator" id="sign">+/-</button>
+                <button class="keys operator" id="clr">CE</button>
+                <button class="keys operator" id="del">Del</button>
+                <button class="keys operator" id="add" value="+">+</button>
+                <button class="keys number" id="one" value="1">1</button>
+                <button class="keys number" id="two" value="2">2</button>
+                <button class="keys number" id="three" value="3">3</button>
+                <button class="keys operator" id="sub" value="-">-</button>
+                <button class="keys number" id="four" value="4">4</button>
+                <button class="keys number" id="five" value="5">5</button>
+                <button class="keys number" id="six" value="6">6</button>
+                <button class="keys operator" id="mul" value="x">x</button>
+                <button class="keys number" id="seven" value="7">7</button>
+                <button class="keys number" id="eight" value="8">8</button>
+                <button class="keys number" id="nine" value="9">9</button>
+                <button class="keys operator" id="div" value="/">/</button>
+                <button class="keys operator" id="dec">.</button>
+                <button class="keys number" id="zero" value="0">0</button>
+                <button class="keys result" id="res">=</button>
+            </div>
+        </div>
+        <hr>
+        <script src="index.js"></script>
+    </body>
+</html>
